@@ -3,3 +3,11 @@
 @import 'global/variables'; //переменные
 @import 'global/common';
 @import 'global/grid';
+
+// стили блоков
+@import 'components/blocks/menu/menu';
+
+// стили компонентов
+@import 'components/header/header';
+@import 'src/components/content/content';
+@import 'components/footer/footer';

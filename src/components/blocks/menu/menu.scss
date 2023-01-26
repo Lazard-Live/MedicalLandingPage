@@ -1,0 +1,24 @@
+.menu {
+  padding: 1.4rem;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: $color-primary;
+
+  .menu__logo {
+    box-sizing: content-box;
+  }
+
+  .menu__list {
+    margin: 0;
+    padding: 0 1rem;
+    display: inline-flex;
+    list-style: none;
+  }
+
+  .menu__item {
+    margin-left: 1rem;
+    box-sizing: content-box;
+  }
+
+}
