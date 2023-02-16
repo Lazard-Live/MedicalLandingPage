@@ -1,20 +1,31 @@
-import {useState} from 'react'
-
 function Menu() {
-
     return (
         <div className={'menu'}>
             <div className="menu__logo">
-                <a href="src/components/blocks/menu#" className="menu__logo_link">Битенская Ирина</a>
+                <a href="#">
+                    <img className='menu__logo-img' src="public/img/logo3.png" alt="Битенская Ирина"/>
+                </a>
             </div>
 
             <ul className={'menu__list'}>
-                <li className={'menu__item'}>Специализация</li>
-                <li className={'menu__item'}>Обо мне</li>
-                <li className={'menu__item'}>Контакты</li>
+                <li className={'menu__item'}>
+                    <a href="" className="">
+                        Специализация
+                    </a>
+                </li>
+                <li className={'menu__item'}>
+                    <a href="" className="">
+                        Обо мне
+                    </a>
+                </li>
+                <li className={'menu__item'}>
+                    <a href="" className="">
+                        Контакты
+                    </a>
+                </li>
             </ul>
         </div>
-    )
+    );
 }
 
 export default Menu

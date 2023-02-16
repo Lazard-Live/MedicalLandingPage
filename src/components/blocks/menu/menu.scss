@@ -1,22 +1,30 @@
 .menu {
   padding: 1.4rem;
   width: 100%;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-  background-color: $color-primary;
+  border-bottom: 1px solid $color-second;
 
-  .menu__logo {
-    box-sizing: content-box;
+  &__logo {
+    height: 40px;
   }
 
-  .menu__list {
+  &__logo-img {
+    height: 52px;
+  }
+
+  &__list {
+    display: inline-flex;
     margin: 0;
     padding: 0 1rem;
-    display: inline-flex;
     list-style: none;
+
+    @include screen-down(md) {
+      display: block; // тут будет бургер!
+    }
   }
 
-  .menu__item {
+  &__item {
     margin-left: 1rem;
     box-sizing: content-box;
   }
