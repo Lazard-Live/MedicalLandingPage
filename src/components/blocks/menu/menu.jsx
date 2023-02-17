@@ -3,7 +3,7 @@ function Menu() {
         <div className={'menu'}>
             <div className="menu__logo">
                 <a href="#">
-                    <img className='menu__logo-img' src="public/img/logo3.png" alt="Битенская Ирина"/>
+                    <img className='menu__logo-img' src="public/img/logo.png" alt="Битенская Ирина"/>
                 </a>
             </div>
 
