@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $color-text;
-  min-width: 500px;
+  min-width: 520px;
 }
 
 html,
@@ -35,6 +35,6 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: red;
+    color: darken($color-primary, 20%);
   }
 }

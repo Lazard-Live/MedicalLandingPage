@@ -1,22 +1,23 @@
 .menu {
-  padding: 1.4rem;
+  padding: 1.4rem 1.4rem 0 1.4rem;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid $color-second;
 
   &__logo {
-    height: 40px;
+    position: relative;
+    height: 52px;
   }
 
   &__logo-img {
-    height: 52px;
+    height: 100%
   }
 
   &__list {
     display: inline-flex;
     margin: 0;
-    padding: 0 1rem;
+    padding: 0 1.2rem;
     list-style: none;
 
     @include screen-down(md) {
@@ -29,4 +30,12 @@
     box-sizing: content-box;
   }
 
+  &__link {
+    @extend %transition;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-color: $color-primary-dark;
+    }
+  }
 }

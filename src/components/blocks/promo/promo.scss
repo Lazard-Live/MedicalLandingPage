@@ -12,11 +12,11 @@
   &__wrap {
     position: relative;
     display: flex;
-    flex: 1;
+    align-items: center;
     justify-content: space-between;
     background: $color-primary-rgba;
     border-radius: 20px;
-    
+
     @include screen-down(lg) {
       flex-wrap: wrap;
 
@@ -32,14 +32,21 @@
     display: block;
     position: relative;
     object-fit: contain;
-    height: 100%;
-    max-width: 500px;
+    height: 40vh;
     border-radius: 20px;
+
+    @include screen-up(md) {
+      height: 60vh;
+    }
+
+    @include screen-up(lg) {
+      height: 80vh;
+    }
   }
 
   &__content {
     min-width: 300px;
-    padding: 2.4rem;
+    padding: 2.4rem 2.4rem 0 2.4rem;
   }
 
   &__title {

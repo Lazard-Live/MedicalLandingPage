@@ -1,25 +1,23 @@
 function Menu() {
     return (
         <div className={'menu'}>
-            <div className="menu__logo">
-                <a href="#">
-                    <img className='menu__logo-img' src="public/img/logo.png" alt="Битенская Ирина"/>
-                </a>
-            </div>
+            <a href="#" className="menu__logo menu__logo-wrap">
+                <img className="menu__logo-img" src="public/img/logo.png" alt="Битенская Ирина" />
+            </a>
 
             <ul className={'menu__list'}>
                 <li className={'menu__item'}>
-                    <a href="" className="">
+                    <a href="#spec" className="menu__link">
                         Специализация
                     </a>
                 </li>
                 <li className={'menu__item'}>
-                    <a href="" className="">
+                    <a href="" className="menu__link">
                         Обо мне
                     </a>
                 </li>
                 <li className={'menu__item'}>
-                    <a href="" className="">
+                    <a href="" className="menu__link">
                         Контакты
                     </a>
                 </li>
@@ -28,4 +26,4 @@ function Menu() {
     );
 }
 
-export default Menu
+export default Menu;

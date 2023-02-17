@@ -2,6 +2,8 @@ $font-primary: 'Montserrat', serif;
 
 $color-primary: #20C3AD;
 $color-primary-rgba: rgba(32, 195, 173, 0.9);
+$color-primary-light: lighten($color-primary, 40%);
+$color-primary-dark: darken($color-primary, 20%);
 $color-second: #000000;
 $color-text: #1e2b39;
 $color-text-promo: #fff;
@@ -12,25 +14,25 @@ $point-lg: 992px;
 $point-xl: 1200px;
 
 %transition {
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 @mixin screen-up($point) {
-    $is-sm: $point == sm;
-    $is-md: $point == md;
-    $is-lg: $point == lg;
+  $is-sm: $point == sm;
+  $is-md: $point == md;
+  $is-lg: $point == lg;
 
-    @media (min-width: if($is-sm, $point-sm, if($is-md, $point-md, if($is-lg, $point-lg, $point-xl)))) {
-        @content;
-    }
+  @media (min-width: if($is-sm, $point-sm, if($is-md, $point-md, if($is-lg, $point-lg, $point-xl)))) {
+    @content;
+  }
 }
 
 @mixin screen-down($point) {
-    $is-sm: $point == sm;
-    $is-md: $point == md;
-    $is-lg: $point == lg;
+  $is-sm: $point == sm;
+  $is-md: $point == md;
+  $is-lg: $point == lg;
 
-    @media (max-width: if($is-sm, $point-sm - 1px, if($is-md, $point-md - 1px, if($is-lg, $point-lg - 1px, $point-xl - 1px)))) {
-        @content;
-    }
+  @media (max-width: if($is-sm, $point-sm - 1px, if($is-md, $point-md - 1px, if($is-lg, $point-lg - 1px, $point-xl - 1px)))) {
+    @content;
+  }
 }

@@ -1,0 +1,73 @@
+.spec {
+  &__container-fluid {
+    &_color {
+      background: $color-primary-light;
+    }
+
+    & .container {
+      padding: 0;
+    }
+  }
+
+  &__row {
+    padding: 1.2rem 0;
+  }
+
+  &__title,
+  &__subtitle {
+    text-align: center;
+  }
+
+  &__subtitle {
+    line-height: 2rem;
+  }
+
+  &__subtitle-list {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  &__item {
+    padding-top: 0.8rem;
+
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    @include screen-up(md) {
+      text-align: justify;
+    }
+
+    @include screen-down(md) {
+      font-size: 24px;
+    }
+
+    @include screen-down(sm) {
+      font-size: 28px;
+    }
+
+    & div:not(:first-child) {
+      padding-top: 1.4rem;
+    }
+
+    & span {
+      font-weight: 600;
+      padding-left: 1.4rem;
+    }
+  }
+
+  &__list {
+    margin: 0;
+  }
+
+  &__info {
+    text-align: center;
+    font-weight: 600;
+  }
+}
