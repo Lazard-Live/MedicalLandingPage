@@ -1,8 +1,8 @@
 function Promo() {
     return (
-        <div className="section">
+        <div id="promo" className="section">
             <div className="container-fluid">
-                <div className="promo promo__bg">
+                <div className="promo promo_bg">
                     <div className="promo__wrap">
                         <div className="promo__content">
                             <h1 className="title promo__title">Битенская Ирина</h1>

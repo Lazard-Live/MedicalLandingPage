@@ -1,0 +1,7 @@
+.contacts {
+  &__title {
+    & div:not(:first-child) {
+      padding-top: 1.4rem;
+    }
+  }
+}

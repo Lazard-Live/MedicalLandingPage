@@ -1,4 +1,15 @@
 .footer {
-  display: inline-flex;
+  padding: 1.4rem;
   flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+
+  &__col {
+    text-align: center;
+  }
+
+  &__copyright {
+    font-weight: 600;
+    font-size: 12px;
+  }
 }

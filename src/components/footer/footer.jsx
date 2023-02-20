@@ -1,8 +1,9 @@
 function Footer() {
-
     return (
-        <div className={'footer'}>2023</div>
-    )
+        <div className="footer">
+            <div className="footer__col">2023 г.</div>
+        </div>
+    );
 }
 
-export default Footer
+export default Footer;

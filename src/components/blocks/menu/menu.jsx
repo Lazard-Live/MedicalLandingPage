@@ -12,12 +12,12 @@ function Menu() {
                     </a>
                 </li>
                 <li className={'menu__item'}>
-                    <a href="" className="menu__link">
+                    <a href="#about" className="menu__link">
                         Обо мне
                     </a>
                 </li>
                 <li className={'menu__item'}>
-                    <a href="" className="menu__link">
+                    <a href="#contacts" className="menu__link">
                         Контакты
                     </a>
                 </li>
