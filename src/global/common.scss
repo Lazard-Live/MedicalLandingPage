@@ -26,6 +26,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+
+  &__container-fluid-primary-color {
+    background: $color-primary-light;
+  }
 }
 
 a {

@@ -3,16 +3,13 @@
 @import 'global/variables'; //переменные
 @import 'global/common';
 @import 'global/grid';
-@import 'global/root';
 
 // стили блоков
 @import 'components/blocks/title';
-@import 'components/blocks/subtitle';
 @import 'components/blocks/text';
 @import 'components/blocks/menu/menu';
 @import 'components/blocks/promo/promo';
 @import 'components/blocks/spec/spec';
-@import 'components/blocks/about/about';
 @import 'components/blocks/contacts/contacts';
 @import 'components/blocks/faq/faq';
 

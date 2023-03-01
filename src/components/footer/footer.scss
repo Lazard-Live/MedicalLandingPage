@@ -1,15 +1,6 @@
 .footer {
-  padding: 1.4rem;
+  border-top: 1px solid $color-primary-rgba;
+  padding: 0.8rem;
   flex: 0 0 auto;
-  display: flex;
-  justify-content: center;
-
-  &__col {
-    text-align: center;
-  }
-
-  &__copyright {
-    font-weight: 600;
-    font-size: 12px;
-  }
+  text-align: center;
 }

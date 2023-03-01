@@ -1,22 +1,6 @@
 .spec {
-  &__container-fluid {
-    & .container {
-      padding: 0;
-    }
-  }
-
-  &__row {
+  &__text {
     padding: 1.2rem 0;
-  }
-
-  &__subtitle {
-    line-height: 2rem;
-  }
-
-  &__subtitle-list {
-    font-size: 1.4rem;
-    font-weight: 600;
-    text-decoration: underline;
   }
 
   &__item {
@@ -27,19 +11,12 @@
     }
   }
 
-  &__text {
-    & span {
-      font-weight: 600;
-      padding-left: 1.4rem;
-    }
-  }
-
-  &__list {
-    margin: 0;
-  }
-
   &__info {
-    text-align: center;
-    font-weight: 600;
+    padding-bottom: 1.2rem;
+
+    & .text {
+      text-align: center;
+      font-weight: 600;
+    }
   }
 }

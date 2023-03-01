@@ -1,7 +1,7 @@
 function Menu() {
     return (
         <div className={'menu'}>
-            <a href="#" className="menu__logo menu__logo-wrap">
+            <a href="" className="menu__logo menu__logo-wrap">
                 <img className="menu__logo-img" src="public/img/logo.png" alt="Битенская Ирина" />
             </a>
 

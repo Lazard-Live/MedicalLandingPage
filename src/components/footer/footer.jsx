@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <div className="footer">
-            <div className="footer__col">2023 г.</div>
+            2023 г.
         </div>
     );
 }

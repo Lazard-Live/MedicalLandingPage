@@ -4,11 +4,10 @@ function Faq() {
             <div className="faq">
                 <div className="container-fluid root__container-fluid-primary-color">
                     <div className="container">
-                        <h3 className="subtitle faq__subtitle">Как проходит консультация?</h3>
-
                         <div className="row">
-                            <div className="col text">
-                                <div>
+                            <div className="col">
+                                <h3 className="title title_sm">Как проходит консультация?</h3>
+                                <div className="text faq__text">
                                     В оговоренное время мы встречаемся в мессенджере или по телефону и детально
                                     обсуждаем вашу проблему. После встречи я пересылаю вам консультацию и назначения.
                                     Если вы находитесь за рубежом, назначения лекарственных препаратов будут сделаны на{' '}
@@ -18,9 +17,9 @@ function Faq() {
                             </div>
                         </div>
                     </div>
-
-                    <div className="faq__end">Буду рада вам помочь!</div>
                 </div>
+
+                <div className="faq__end">Буду рада вам помочь!</div>
             </div>
         </div>
     );

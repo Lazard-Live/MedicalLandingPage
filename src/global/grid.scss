@@ -4,6 +4,7 @@ $columns: 12;
 
 .container {
     margin: 0 auto;
+    padding-bottom: 1.2rem;
 
     @include screen-up(sm) {
         max-width: 540px;

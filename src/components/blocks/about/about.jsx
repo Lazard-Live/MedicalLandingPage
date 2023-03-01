@@ -3,11 +3,12 @@ function About() {
         <div id="about" className="section">
             <div className="container">
                 <div className="about">
-                    <h2 className="title title_md" id="about">
-                        Обо мне
-                    </h2>
                     <div className="row">
                         <div className="col">
+                            <h2 className="title title_md" id="about">
+                                Обо мне
+                            </h2>
+
                             <div className="text">
                                 Окончила Волгоградский государственный медицинский институт по специальности «Лечебное
                                 дело». Интернатура в клинической больнице №7 города Волгограда. Длительное время
