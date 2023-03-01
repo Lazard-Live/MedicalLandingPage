@@ -10,7 +10,7 @@ function Promo() {
                             <p className="promo__text">Доктор, которому вы доверяете</p>
                         </div>
                         <div className="promo__img-wrap">
-                            <img className="promo__img" src="public/img/promo/facev2.png" alt="Битенская Ирина" />
+                            <img className="promo__img" src="img/promo/facev2.png" alt="Битенская Ирина" />
                         </div>
                     </div>
                 </div>
